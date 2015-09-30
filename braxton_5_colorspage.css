@@ -1,0 +1,56 @@
+body {
+	background-color: #666666;
+	margin: 0px;
+}
+
+.container {
+	height: 850px;
+	margin-left: auto;
+	margin_right: auto;
+	width: 700px;
+}
+
+Header {
+	height:100px;
+	width: 700px;
+}
+
+h1 {
+	font-family: sans-serif;
+	font-size: 72px;
+	margin: 0px;
+	text-align: center;
+}
+
+nav {
+	height: 50px;
+	width: 700px;
+}
+
+td {
+	font-family: sans-serif;
+	font-size: 35px;
+}
+
+table {
+	width: 700px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+
+.main {
+	float: left;
+	font-family: sans-serif;
+	height: 790px;
+	margin-bottom: 5px;
+	width: 700px;
+}
+aside {
+	clear: both;
+	height: 100px;
+	width: 700px;
+}

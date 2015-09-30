@@ -1,0 +1,46 @@
+.container {
+    background-color: clear;
+}
+
+.main {
+    background-color: #BD0E03;
+}
+
+header {
+    background-color: #FF1C00;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+a:hover {
+    color: gold;
+    cursor:alias;
+}
+
+
+a {
+    color: whitesmoke;
+}
+
+aside {
+    background-color: #BD0E03;
+}
+
+
+footer {
+    background-color: blue;
+}
+
+
+nav {
+    background-color: #FF1C00;
+}
+
+body{
+  background: -webkit-linear-gradient(left, red , white, red); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, red, white, red); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, red, white, red); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, red , white, red); /* Standard syntax */
+}
