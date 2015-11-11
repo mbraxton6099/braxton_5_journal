@@ -58,7 +58,8 @@
     border-radius: 200px;
     background-color: dodgerblue;
     position: relative;
-    right: auto;
+    left: 205px;
+    top: 525px;
 }
 
 .six { 
@@ -66,8 +67,8 @@
     width: 75px;
     border-radius: 200px;
     background-color: deepskyblue;
-    position: fixed;
-    right: auto;
+    position: relative;
+    top: 530px;
 }
 
 .seven { 
@@ -75,8 +76,9 @@
     width: 75px;
     border-radius: 200px;
     background-color: darkturquoise;
-    position: fixed;
-    right: auto;
+    position: relative;
+    right: 205px;
+    top: 380px;
 }
 
 .eight { 
@@ -84,8 +86,9 @@
     width: 75px;
     border-radius: 200px;
     background-color: cyan;
-    position: fixed;
-    right: auto;
+    position: relative;
+    right: 370px;
+    top: 130px;
 }
 
 .nine { 
@@ -93,8 +96,9 @@
     width: 75px;
     border-radius: 200px;
     background-color: darkblue;
-    position: fixed;
-    right: auto;
+    position: relative;
+    right: 425px;
+    top: -140px
 }
 
 .ten { 
@@ -102,8 +106,9 @@
     width: 75px;
     border-radius: 200px;
     background-color: darkcyan;
-    position: fixed;
-    right: auto;
+    position: relative;
+    right: 370px;
+    top: -420px;
 }
 
 .eleven { 
@@ -111,8 +116,9 @@
     width: 75px;
     border-radius: 200px;
     background-color: cornflowerblue;
-    position: fixed;
-    right: auto;
+    position: relative;
+    right: 205px;
+    top: -640px;
 }
 
 .twelve { 
@@ -121,6 +127,6 @@
     border-radius: 200px;
     background-color: darkseagreen;
     position: relative;
-    top: -125px;
+    top: -775px;
     
 }
