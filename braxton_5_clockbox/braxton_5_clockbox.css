@@ -1,0 +1,126 @@
+.container {
+    height: 1400px;
+    width: 1400px;
+}
+
+.circle {
+    width: 1000px;
+    height: 1000px;
+    border-radius: 1400px;
+    background-color: aliceblue;
+}
+
+.one { 
+    height: 75px;
+    width: 75px;
+    border-radius: 200px;
+    background-color: aqua;
+    position: relative;
+    left: 210px;
+    top: 110px;
+}
+
+.two { 
+    height: 75px;
+    width: 75px;
+    border-radius: 200px;
+    background-color: aquamarine;
+    position: relative;
+    left: 375px;
+    top: 175px;
+}
+
+.three { 
+    height: 75px;
+    width: 75px;
+    border-radius: 200px;
+    background-color: blue;
+    position: relative;
+    left: 450px;
+    top: 290px;
+}
+
+.four { 
+    height: 75px;
+    width: 75px;
+    border-radius: 200px;
+    background-color: cadetblue;
+    position: relative;
+    left: 370px;
+    top: 425px;
+
+}
+
+
+.five { 
+    height: 75px;
+    width: 75px;
+    border-radius: 200px;
+    background-color: dodgerblue;
+    position: relative;
+    right: auto;
+}
+
+.six { 
+    height: 75px;
+    width: 75px;
+    border-radius: 200px;
+    background-color: deepskyblue;
+    position: fixed;
+    right: auto;
+}
+
+.seven { 
+    height: 75px;
+    width: 75px;
+    border-radius: 200px;
+    background-color: darkturquoise;
+    position: fixed;
+    right: auto;
+}
+
+.eight { 
+    height: 75px;
+    width: 75px;
+    border-radius: 200px;
+    background-color: cyan;
+    position: fixed;
+    right: auto;
+}
+
+.nine { 
+    height: 75px;
+    width: 75px;
+    border-radius: 200px;
+    background-color: darkblue;
+    position: fixed;
+    right: auto;
+}
+
+.ten { 
+    height: 75px;
+    width: 75px;
+    border-radius: 200px;
+    background-color: darkcyan;
+    position: fixed;
+    right: auto;
+}
+
+.eleven { 
+    height: 75px;
+    width: 75px;
+    border-radius: 200px;
+    background-color: cornflowerblue;
+    position: fixed;
+    right: auto;
+}
+
+.twelve { 
+    height: 75px;
+    width: 75px;
+    border-radius: 200px;
+    background-color: darkseagreen;
+    position: relative;
+    top: -125px;
+    
+}
