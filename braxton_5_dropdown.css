@@ -1,3 +1,6 @@
+body {
+    background-color: white;
+}
 #sddm {
     margin: 0;
     padding: 0;
@@ -18,7 +21,7 @@
     padding: 4px 10px;
     width: 60px;
     background: #5970B2;
-    color: #fff;
+    color: blue;
     text-align: center;
     text-decoration: none;
 }
