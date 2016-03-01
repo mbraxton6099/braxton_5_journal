@@ -46,3 +46,27 @@ h1 {
     font-size: 56px;
     margin: 0;
 }
+
+#switch {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+}
+
+#rockb {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+}
+
+#paperb {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+}
+
+#scissorb {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+}

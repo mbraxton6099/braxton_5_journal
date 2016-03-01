@@ -1,0 +1,46 @@
+h1 {
+    height: 15%;
+    width: 95%;
+    animation-name: example;
+    animation-duration: 10s;
+    text-align: center;
+    margin: 0;
+}
+
+@keyframes example {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    75% {color: green;}
+    100% {color: red;}
+}
+
+#rock {
+    width:30%;
+    height: 85%;
+    position: absolute;
+    left: 2.5%;
+    background-color: dimgray;
+}
+
+#paper {
+    width: 30%;
+    height: 85%;
+    position: absolute;
+    left: 32.5%;
+    border-color: black;
+    border-width: 5px;
+}
+
+#scissors {
+    width: 30%;
+    height: 85%;
+    position: absolute;
+    left: 67%;
+    background-color: red;
+}
+
+header {
+    border-style: inset;
+    
+}
