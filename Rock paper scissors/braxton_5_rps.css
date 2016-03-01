@@ -1,0 +1,45 @@
+.rock {
+    width: 30%;
+    height: 85%;
+    background-color: dimgray;
+    position: absolute;
+    left: 2.5%;
+    border-style: solid;
+}
+
+.paper {
+    width: 30%;
+    height: 85%;
+    position: absolute;
+    left: 35%;
+    border-style: solid;
+}
+
+.scissor {
+    width: 30%;
+    height: 85%;
+    background-color: greenyellow;
+    position: absolute;
+    left: 67.5%;
+    border-style: solid;
+}
+
+header {
+    width: 95%;
+    height: 10%;
+    margin: 2.5%;
+    margin-top: 0;
+    border-style: inset;
+}
+
+footer {
+    width: 95%;
+    height: 10%;
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 56px;
+    margin: 0;
+}
