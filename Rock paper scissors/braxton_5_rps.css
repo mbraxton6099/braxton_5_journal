@@ -1,4 +1,4 @@
-.rock {
+#rock {
     width: 30%;
     height: 85%;
     background-color: dimgray;
@@ -7,7 +7,7 @@
     border-style: solid;
 }
 
-.paper {
+#paper {
     width: 30%;
     height: 85%;
     position: absolute;
@@ -15,7 +15,7 @@
     border-style: solid;
 }
 
-.scissor {
+#scissor {
     width: 30%;
     height: 85%;
     background-color: greenyellow;
@@ -36,6 +36,9 @@ footer {
     width: 95%;
     height: 10%;
     background-color: black;
+    position: absolute;
+    top: 100%;
+    margin: 40px;
 }
 
 h1 {
