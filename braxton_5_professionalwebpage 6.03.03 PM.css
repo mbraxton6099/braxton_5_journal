@@ -1,0 +1,235 @@
+nav {
+    background-color: #303030;
+    width: auto;
+    height: 44px;
+    margin: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+}
+
+.navtext {
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 0 22px;
+    position: relative;
+    z-index: 2;
+    height: 48px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+
+.pagetitle {
+    height: 60px;
+    width: 980px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    background-color: #F2F2F2;
+}
+
+h1 {
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+.main {
+ 
+}
+
+.intro {
+    background-color: #F2F2F2;
+    height: 1300px;
+}
+
+.titlebox {
+    width: auto;
+    background-color: #F2F2F2;
+}
+
+.design {
+    height: 1000px;
+    width: ;
+}
+
+.power {
+    background-color: #f2f2f2;
+    height: 1000px;
+    width: auto;
+}
+
+.camera {
+    height: 1000px;
+    width: auto;
+}
+
+.fingerprint {
+    background-color: #f2f2f2;
+    width: auto;
+    height: 1000px;
+}
+
+.connectivity {
+    height: 1000px;
+    width: auto;
+}
+
+.experience {
+    background-color: #f2f2f2;
+    height: 1000px;
+    width: auto;
+}
+
+.apps {
+    height: 1000px;
+    width: auto;
+}
+
+.cover {
+    background-color: #f2f2f2;
+    height: 800px;
+    width: auto;
+}
+
+.space {
+    height 10px;
+    width: auto;
+}
+
+.ad {
+    background-image: url(ipads_hand.jpeg);
+    height: 275px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    height: 1000px;
+    width: auto;
+    background-color: #f2f2f2;
+}
+
+.footertext {
+    height: 500px;
+    width: 980px;
+}
+
+.h1title {
+    padding-top: 100px;
+}
+
+.mm {
+    border-bottom: solid 40px gray;
+}
+
+.introtext {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.ipadsize {
+    margin-left:300px;   
+}
+
+.designtext {
+   margin-left: 10px;
+    margin-right: 500px;
+    float:right;
+    margin-top: 250px;
+    
+}
+.designtext1 {
+    margin-left: 890px;
+    margin-right: 380px;
+    float:right;
+    margin-top: -450px;
+}
+
+.powertext {
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-top: 150px;
+    font-size: 30px;
+}
+
+.ptext1 {
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.connect {
+    margin-top: 220px;
+    margin-left: 510px;
+}
+
+.ipadexperience {
+    marign-top: 330px;
+}
+
+.appspic {
+    margin-top: 10px;
+}
+
+.adtext {
+
+}
+
+.end {
+    margin-top: 50px;
+    margin-right: 200px;
+    margin-left: 550px;
+}
+
+.footertext {
+    margin-left: 900px;
+    margin-top: -200px;
+    font-size: 40px;
+}
+
+.shop {
+    margin-left: 300px;
+    margin-top: -250px;
+}
+
+.applestore {
+    margin-top: -212;
+    margin-left: 500px;
+}
+
+.education {
+    margin-top: -210px;
+    margin-left: 800px;
+}
+
+.business {
+    margin-top: 0px;
+    margin-left: 800px;
+}
+
+.account {
+    margin-top: -150px;
+    margin-left: 1050px;
+}
+
+.values {
+    margin-top: 0px;
+    margin-left: 1050px;
+}
+
+.ipear {
+    margin-top: -200px;
+    margin-left: 1300px;
+}
+.shoplink {
+    width: 100px;
+    height: 150px;
+}
+
+li {
+    list-style-image: none;
+}

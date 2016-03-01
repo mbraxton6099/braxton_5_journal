@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Drop Down Menu</title>
+        <meta name="keywords" content="D22 is awesome; ninja">
+        <meta name="description" content="">
+        <link rel="stylesheet" type="text/css" href="../css/braxton_5_bigwebpage.css">
+        
+        <!-- dd menu -->
+        <script type="text/javascript">
+            <!--
+                var timeout = 500;
+            var closetimer = 0;
+            var ddmenuitem = 0;
+            
+            // open hidden layer
+            function mopen(id)
+            {
+                // cancel closetimer
+                mcancelclosetime();
+                
+                // close old layer
+                if(ddmenuitem) ddmenuitem.style.visibility = 'hidden' ;
+                
+                // get new layer and show it
+                ddmenuitem = document.getElementById(id);
+                ddmenuitem.style.visibility = 'visible' ;
+                
+            }
+            // close showed layer 
+            function mclose()
+            {
+                if(ddmenuitem) ddmenuitem.style.visibility = 'hidden' ;
+            }
+            
+            // go close timer
+            function mclosetime()
+            {
+                closetimer = window.setTimeout(mclose, timeout);
+            }
+            
+            // cancel close timer
+            function mcancelclosetime()
+            {
+                if(closetimer)
+                {
+                    window.clearTimeout(closetimer);
+                    closetimer = null;
+                }
+            }
+            
+            // close layer when click-out
+            document.onclick = mclose;
+            // -->
+        </script>
+        
+    </head>
+    <body>
+        <header><center><img src="peoplepills.png"></center></header>
+        <nav>
+            <ul id="sddm">
+            <li><a href="../braxton_5_bigwebpage.html" onmouseover="mopen('m1')" onmouseout="mclosetime()">Home</a>
+                <div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                <a href="../drake/braxton_5_drakepp.html">Drake's PP</a>
+                <a href="./beyonce/braxton_5_beyoncepp.html">Beyonce's PP</a>
+                <a href="../chan/braxton_5_chanpp.html">Jackie Chan's PP</a>
+                <a href="../trump/braxton_5_trumppp.html">Donald Trump's PP</a>
+                <a href="../reverse/braxton_5_reversepp.html">Reverse PP</a>
+            </div>
+            </li>
+            <li><a href="../drake/braxton_5_drakepp.html" onmouseover="mopen('m2')" onmouseout="mclosetime()">Drake's PP</a>
+                <div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                    <a href="../drake/braxton_5_drakepp_hair.html">Drake's Hair</a>
+                    <a href="../drake/braxton_5_drakepp_voice.html">Drake's Voice</a>
+                    <a href="../drake/braxton_5_drakepp_looks.html">Drake's Looks</a>
+                    <a href="../drake/braxton_5_drakepp_life.html">Drake's Life</a>
+                    <a href="../drake/braxton_5_drakepp.html">Hotline Bling Edition</a>
+                </div>
+            </li>
+            <li><a href="./beyonce/braxton_5_beyoncepp.html" onmouseover="mopen('m3')" onmouseout="mclosetime()">Beyonce's PP</a>
+                <div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                    <a href="./braxton_5_beyonce_hair.html">Beyonce Hair</a>
+                    <a href="./braxton_5_beyonce_voice.html">Beyonce Voice</a>
+                    <a href="./braxton_5_beyonce_problems.html">Beyonce Problems</a>
+                    <a href="./braxton_5_beyonce_life.html">Beyonce Life</a>
+                    <a href="./braxton_5_beyoncepp.html">Destiny's Child Edition</a>
+                </div>
+            </li>
+             <li><a href="../trump/braxton_5_trumppp.html" onmouseover="mopen('m4')" onmouseout="mclosetime()">Donald Trump's PP</a>
+                <div id="m4" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                    <a href="../trump/braxton_5_trumppp_hair.html">Trump's Hair</a>
+                    <a href="../trump/braxton_5_trumppp_life.html">Trump's Life</a>
+                    <a href="../trump/braxton_5_trumppp_wife.html">Trump's Wife</a>
+                    <a href="../trump/braxton_5_trumppp.html">Donald's Duck Edition</a>
+                </div>
+            </li>
+             <li><a href="../chan/braxton_5_chanpp.html" onmouseover="mopen('m5')" onmouseout="mclosetime()">Jackie Chan's PP</a>
+                <div id="m5" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                    <a href="../chan/braxton_5_chanpp_skills.html">Chan's Skills</a>
+                    <a href="../chan/braxton_5_chanpp_mind.html">Chan's Mind</a>
+                    <a href="../chan/braxton_5_chanpp_hair.html">Chan's Hair</a>
+                    <a href="../chan/braxton_5_chanpp.html">Karate Kid Edition</a>
+               </div>
+            </li>
+                <li><a href="../reverse/braxton_5_reversepp.html" onmouseover="mopen('m6')" onmouseout="mclosetime()">Reverse PP</a>
+                <div id="m6" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                    <a href="../reverse/braxton_5_reversepp_faq.html">FAQ</a>
+                    <a href="../reverse/braxton_5_reversepp_terms.html">Terms of Use</a>
+                    <a href="../sorry/braxton_5_sorry.html">Purchase</a>
+               </div>
+            </li>
+                <li><a href="../reverse/braxton_5_reversepp.html" onmouseover="mopen('m7')" onmouseout="mclosetime()">Support</a>
+                <div id="m7" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                    <a href="../reverse/braxton_5_reversepp_faq.html">FAQ</a>
+                    <a href="../reverse/braxton_5_reversepp_terms.html">Terms of Use</a>
+                    <a href="../sorry/braxton_5_sorry.html">Purchase</a>
+               </div>
+            </li>
+                <li><a href="../reverse/braxton_5_reversepp.html" onmouseover="mopen('m8')" onmouseout="mclosetime()">About Us</a>
+                <div id="m8" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                    <a href="../reverse/braxton_5_reversepp_faq.html">FAQ</a>
+                    <a href="../reverse/braxton_5_reversepp_terms.html">Terms of Use</a>
+                    <a href="../sorry/braxton_5_sorry.html">Purchase</a>
+               </div>
+            </li>
+                </ul>
+        <div style="clear:both"></div>
+        
+        <div style="clear:both"></div>
+            </nav>
+        <a href="braxton_5_beyoncepp.html"><img src="beyonce_hair.jpg"></a>
+         <div class="main">
+            <center><h2>This is Beyonce's Hair pill. This will give you, Beyonce's hair. <br>Below you can see the different packs and sizes. Also directions to how to use the people pills. </h2></center></div>
+        
+        <div class="p1">
+            <h2>The Pequeño size. Pequeño will last you one hour for each pill. This is the smallest if the sizes.<br>You can get the day, single or week pack. </h2>
+            <h2><a href="../sorry/braxton_5_sorry.html">Click here</a> to buy one of the pequeño sizes.</h2></div>
+
+        <div class="p2">
+            <h2>Tolerable size. This will last you for a full day with one pill.<br>You can buy the single, week or month pack.</h2>
+           <h2> <a href="../sorry/braxton_5_sorry.html">Click here</a> to buy the medium pill.</h2></div>
+        
+    <div class="p3"><h2>Massive size. This will last you for a full seven day with one pill.<br>You can buy the single or month pack.</h2>
+           <h2> <a href="../sorry/braxton_5_sorry.html">Click here</a> to buy the massive pill.</h2>
+        </div>
+        
+        <div class="p4">
+            <center><h2>To use the pills take one at any time of the day with some water and a posititve attitude.</h2></center>
+            </div>
+    </body>
+</html>

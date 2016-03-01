@@ -1,0 +1,46 @@
+#Bkgrnd {
+    background-color: #fff;
+}
+
+#container {
+    height: 800px;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #6d8c8e;
+}
+
+#Title {
+    height: 75px;
+    width: 550px;
+    background-color: #535353;
+    font-size: 72px;
+    color: #fff;
+}
+
+#Menu {
+    height: 75px;
+    width: 550px;
+    background-color: #f5f;
+}
+
+#switch {
+    color: #000;
+    background-color: #FF9;
+    height: 50px;
+    width: 100px;
+    font-size: 36px;
+    text-align: center;
+    position: absolute;
+}
+
+#switch2 {
+    color: #000;
+    background-color: #6CF;
+    height: 50px;
+    width: 100px;
+    font-size: 36px;
+    text-align: center;
+    position: absolute;
+    top: 50px;
+}

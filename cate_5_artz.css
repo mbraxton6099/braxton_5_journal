@@ -1,0 +1,63 @@
+body {
+    width: 1650px;
+    height: 700px;
+
+}
+
+.yellow {
+    top: 100px;
+    z-index: 2;
+    left: 200px;
+    bottom: 10px;
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.pink{
+    z-index: 1;
+    bottom: 10px;
+    position:relative;
+    right: 100px;
+    background-color: pink;
+    width: 200px;
+    height: 100px
+    
+}
+
+.blue {
+    bottom: 200px;
+    background-color:  aqua;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    
+}
+
+.red1 {
+    bottom: 560px;
+    position: fixed;
+    right: 1420px;
+    background-color: crimson;
+    width: 100px;
+    height: 101px;
+}
+
+.red2 { 
+    bottom: 550px;
+    position: fixed;
+    right: 1300px;
+    background-color: crimson;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.red3 {
+    bottom: 560px;
+    position: absolute;
+    background-color: crimson;
+    width: 100px;
+    height:100px;
+}

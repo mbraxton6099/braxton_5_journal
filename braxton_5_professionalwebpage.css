@@ -1,0 +1,127 @@
+nav {
+    background-color: #303030;
+    width: auto;
+    height: 44px;
+    margin: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+}
+
+.navtext {
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 0 22px;
+    position: relative;
+    z-index: 2;
+    height: 48px;
+    font-size: 18px;
+    font-family: 'Myraid Set Pro', 'Helvetica Neue', Helvetica, arail, sans-serif;
+}
+
+
+.pagetitle {
+    height: 60px;
+    width: 980px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    background-color: #F2F2F2;
+}
+
+h1 {
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+.main {
+ 
+}
+
+.intro {
+    background-color: #F2F2F2;
+    height: 1300px;
+}
+
+.titlebox {
+    width: auto;
+    background-color: #F2F2F2;
+}
+
+.design {
+    height: 1000px;
+    width: auto;
+}
+
+.power {
+    background-color: #f2f2f2;
+    height: 1000px;
+}
+
+.camera {
+    height: 1000px;
+    width: auto;
+}
+
+.fingerprint {
+    background-color: #f2f2f2;
+    width: auto;
+    height: 1000px;
+}
+
+.connectivity {
+    height: 1000px;
+    width: auto;
+}
+
+.experience {
+    background-color: #f2f2f2;
+    height: 1000px;
+    width: auto;
+}
+
+.apps {
+    height: 1000px;
+    width: auto;
+}
+
+.cover {
+    background-color: #f2f2f2;
+    height: 600px;
+    width: auto;
+}
+
+.space {
+    height 10px;
+    width: auto;
+}
+
+.ad {
+    background-image: url(ipad.jpg);
+    height: 275px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    height: 500px;
+    width: auto;
+    background-color: #f2f2f2;
+}
+
+.footertext {
+    height: 500px;
+    width: 980px;
+}
+
+.h1title {
+    padding-top: 100px;
+}
+
+.mm {
+    border-bottom: solid 40px gray;
+}
