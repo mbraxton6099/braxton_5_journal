@@ -44,7 +44,7 @@ function rock() {
         botguess = "Scissors";
     }
     
-    document.getElementById("botguess").innerHTML="<br>The computer picked " + botguess;
+    document.getElementById("component").innerHTML="<br>The computer picked " + botguess;
     
     if (botguess == "Rock") {
         document.getElementById("result").innerHTML="You won this round!";

@@ -35,10 +35,11 @@ header {
 footer {
     width: 95%;
     height: 10%;
-    background-color: black;
+    background-color: white;
     position: absolute;
     top: 100%;
     margin: 40px;
+    border-style: inset;
 }
 
 h1 {
