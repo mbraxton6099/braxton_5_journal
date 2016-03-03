@@ -29,6 +29,32 @@ function clickOff() {
     }
 }
 
+function paper() {
+    var bot = Math.floor((Math.random() * 3) + 1);
+    
+    if (bot === 1) {
+        botguess = "Rock";
+    } else if (bot === 2) {
+        botguess = "Paper";
+    } else {
+        botguess = "Scissors";
+    }
+    
+    document.getElementById("botguess").innerHTML = "<br>The computer picked " + botguess;
+    
+    if (botguess === "Rock") {
+        document.getElementById("result").innerHTML = "You won this round!";
+        won += 1;
+    } else if (botguess === "Paper") {
+        document.getElementById("result").innerHTML = "You tied this round!";   
+        tied += 1;
+    } else {
+        document.getElementById("result").innerHTML = "You are lost this round!";
+        lost += 1;
+    }
+        document.getElementById("wlt").innerHTML = "<br>Won = " + won + "<br>Lost = " + lost + "<br>Tied = " + tied;
+}
+
 function rock() {
     var bot = Math.floor((Math.random() * 3) + 1);
     
@@ -43,13 +69,39 @@ function rock() {
     document.getElementById("component").innerHTML = "<br>The computer picked " + botguess;
     
     if (botguess == "Rock") {
+        document.getElementById("result").innerHTML = "You tied this round!";
+        won += 1;
+    } else if (botguess === "Paper") {
+        document.getElementById("result").innerHTML = "You lost this round!"; 
+        tied += 1;
+    } else {
+        document.getElementById("result").innerHTML = "You won this round!";
+        lost += 1;
+    }
+        document.getElementById("wlt").innerHTML = "<br>Won = " + won + "<br>Lost = " + lost + "<br>Tied = " + tied;
+}
+
+function paper() {
+    var bot = Math.floor((Math.random() * 3) + 1);
+    
+    if (bot === 1) {
+        botguess = "Rock";
+    } else if (bot === 2) {
+        botguess = "Paper";
+    } else {
+        botguess = "Scissors";
+    }
+    
+    document.getElementById("botguess").innerHTML = "<br>The computer picked " + botguess;
+    
+    if (botguess === "Rock") {
         document.getElementById("result").innerHTML = "You won this round!";
         won += 1;
     } else if (botguess === "Paper") {
-        document.getElementById("result").innerHTML = "You are tied this round!"; 
+        document.getElementById("result").innerHTML = "You tied this round!";   
         tied += 1;
     } else {
-        document.getElementById("result").innerHTML = "You lost this round!";
+        document.getElementById("result").innerHTML = "You are lost this round!";
         lost += 1;
     }
         document.getElementById("wlt").innerHTML = "<br>Won = " + won + "<br>Lost = " + lost + "<br>Tied = " + tied;
@@ -77,32 +129,6 @@ function scissor() {
     } else {
         document.getElementById("result").innerHTML= "You are tied this round!";
         tied += 1;
-    }
-        document.getElementById("wlt").innerHTML = "<br>Won = " + won + "<br>Lost = " + lost + "<br>Tied = " + tied;
-}
-
-function paper() {
-    var bot = Math.floor((Math.random() * 3) + 1);
-    
-    if (bot === 1) {
-        botguess = "Rock";
-    } else if (bot === 2) {
-        botguess = "Paper";
-    } else {
-        botguess = "Scissors";
-    }
-    
-    document.getElementById("botguess").innerHTML = "<br>The computer picked " + botguess;
-    
-    if (botguess === "Rock") {
-        document.getElementById("result").innerHTML = "You won this round!";
-        won += 1;
-    } else if (botguess === "Paper") {
-        document.getElementById("result").innerHTML = "You tied this round!";   
-        tied += 1;
-    } else {
-        document.getElementById("result").innerHTML = "You are lost this round!";
-        lost += 1;
     }
         document.getElementById("wlt").innerHTML = "<br>Won = " + won + "<br>Lost = " + lost + "<br>Tied = " + tied;
 }
