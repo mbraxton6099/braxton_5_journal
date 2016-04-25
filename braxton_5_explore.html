@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+<title>Simple Canvas Example</title>
+<style>
+canvas {
+    border: 3px #CCC solid;
+}
+</style>
+</head>
+ 
+<body>
+<div id="container">
+    <canvas id="myCanvas" height="1000" width="1500"></canvas>
+</div>
+<script>
+var sun = new Image();
+var moon = new Image();
+var earth = new Image();
+function init(){
+  sun.src = 'beyonce.png';
+  moon.src = 'https://mdn.mozillademos.org/files/1443/Canvas_moon.png';
+  earth.src = 'https://mdn.mozillademos.org/files/1429/Canvas_earth.png';
+  window.requestAnimationFrame(draw);
+} 
+function draw() {
+  var ctx = document.getElementById('myCanvas').getContext('2d');
+
+  ctx.globalCompositeOperation = 'destination-over';
+  ctx.clearRect(0,0,1000,1000); // clear canvas
+
+  ctx.fillStyle = 'rgba(0,0,0,0.4)';
+  ctx.strokeStyle = 'rgba(0,153,255,0.4)';
+  ctx.save();
+  ctx.translate(150,150);
+
+  // Earth
+  var time = new Date();
+  ctx.rotate( ((2*Math.PI)/60)*time.getSeconds() + ((2*Math.PI)/60000)*time.getMilliseconds() );
+  ctx.translate(400,0);
+  ctx.fillRect(500,500,50,24); // Shadow
+  ctx.drawImage(earth,500,500);
+
+  // Moon
+  ctx.save();
+  ctx.rotate( ((2*Math.PI)/6)*time.getSeconds() + ((2*Math.PI)/6000)*time.getMilliseconds() );
+  ctx.translate(400,28.5);
+  ctx.drawImage(moon,500,500);
+  ctx.restore();
+
+  ctx.restore();
+  
+  /*ctx.beginPath();
+  ctx.arc(150,150,105,0,Math.PI*2,false); // Earth orbit
+  ctx.stroke();*/
+ 
+  ctx.drawImage(sun,500,500,300,300);
+
+  window.requestAnimationFrame(draw);
+}
+
+init();
+
+</script>
+</body>
+</html>
