@@ -16,6 +16,13 @@ function rect(x, y, w, h) {
   ctx.fill();
 }
 
+function rect(x, y, w, h) {
+  ctx.beginPath();
+  ctx.rect(200, 150, w, h);
+  ctx.closePath();
+  ctx.fill();
+}
+
 function rrect(x, y, w, h) {
   ctx.beginPath();
   ctx.rect(x, y, w, h);
