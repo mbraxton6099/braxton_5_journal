@@ -1,5 +1,5 @@
 function getRandColor() {
-    var colors = ["#14CC7C", "#3D9971", "#01FF00", "#FF40FF", "#9A14CC", "#00FF1A"];
+    var colors = ["#14CC7C", "#3D9971", "#01FF00", "#FF40FF", "#9A14CC", "#00FF1A", "#19FFDB", "#FFC800", "#0011B2"];
     return colors[Math.floor(Math.random() * colors.length)];
 }
 
@@ -50,7 +50,7 @@ function updateMicrobes(anim, microbes) {
     }
 }
 function drawMicrobes(anim, microbes){
-    var segmentLength = 2;
+    var segmentLength = 6;
     var context = anim.getContext();
     
     for (var i = 0; i < microbes.length; i++) {
@@ -71,11 +71,12 @@ function drawMicrobes(anim, microbes){
             context.lineTo(x, y);
         }
         
-        context.lineWidth = 10;
+        context.lineWidth = 20;
         context.lineCap = "round";
         context.lineJoin = "round";
         context.strokeStyle = microbe.color;
         context.stroke();
+        context.rotate(Math.PI / 5)
     }
 }
 
@@ -85,7 +86,7 @@ window.onload = function(){
     var context = anim.getContext();
     
     var microbes = [];
-    for (var n = 0; n < 100; n++) {
+    for (var n = 0; n < 250; n++) {
         microbes[n] = {
             headX: 0,
             headY: 0,
