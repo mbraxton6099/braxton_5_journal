@@ -71,7 +71,7 @@ function drawMicrobes(anim, microbes){
             context.lineTo(x, y);
         }
         
-        context.lineWidth = 20;
+        context.lineWidth = 10;
         context.lineCap = "round";
         context.lineJoin = "round";
         context.strokeStyle = microbe.color;
