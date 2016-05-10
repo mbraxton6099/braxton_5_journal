@@ -86,7 +86,7 @@ Gear.prototype.draw = function(context) {
 };
 
 window.onload = function(){
-    var anim = new Animation("myCanvas1");
+    var anim = new Animation("myCanvas");
     var canvas = anim.getCanvas();
     var context = anim.getContext();
     

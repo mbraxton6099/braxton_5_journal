@@ -78,9 +78,53 @@ nav {
 }
 
 body {
-    width: 1680px;
+    width: 1480px;
 }
+
 
 html {
     background-color: #15b6ff;
+}
+
+.display {
+     width: 1080px;
+    height: 850px;
+    background-color: #61CEFF;
+    position: absolute;
+    left: 20%;
+    top: 100px;
+    border-radius: 50px;
+}
+
+.pendulum {
+    position: absolute;
+    top: 400px;
+    right: 10px;
+}
+
+.gears {
+    position: absolute;
+}
+
+.microbes {
+    position: absolute;
+    top: 470px;
+    border-radius: 50px;
+}
+
+.clock {
+    position: absolute;
+    right: 10px; 
+}
+
+#myCanvas {
+    position: absolute;
+    left: 250px;
+}
+
+h1 {
+    position: absolute;
+    top: 700px;
+    left: 500px;
+    text-align: center;
 }

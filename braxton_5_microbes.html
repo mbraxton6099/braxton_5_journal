@@ -1,11 +1,95 @@
 <!DOCTYPE html>
 <html>
 <head>
-</head>
-<body>
-  <canvas id="myCanvas" width="600" height="700" style="border:1px solid black;">
+        
+        <link href="braxton_5_total.css" type="text/css" rel="stylesheet">
+        <script type="text/javascript">
+            <!--
+                var timeout = 500;
+            var closetimer = 0;
+            var ddmenuitem = 0;
+            
+            // open hidden layer
+            function mopen(id)
+            {
+                // cancel closetimer
+                mcancelclosetime();
+                
+                // close old layer
+                if(ddmenuitem) ddmenuitem.style.visibility = 'hidden' ;
+                
+                // get new layer and show it
+                ddmenuitem = document.getElementById(id);
+                ddmenuitem.style.visibility = 'visible' ;
+                
+            }
+            // close showed layer 
+            function mclose()
+            {
+                if(ddmenuitem) ddmenuitem.style.visibility = 'hidden' ;
+            }
+            
+            // go close timer
+            function mclosetime()
+            {
+                closetimer = window.setTimeout(mclose, timeout);
+            }
+            
+            // cancel close timer
+            function mcancelclosetime()
+            {
+                if(closetimer)
+                {
+                    window.clearTimeout(closetimer);
+                    closetimer = null;
+                }
+            }
+            
+            // close layer when click-out
+            document.onclick = mclose;
+            // -->
+        </script>
+    </head>
+    <body>
+        <header><nav>
+            <ul id="sddm">
+            <li><a href="braxton_5_total.html" onmouseover="mopen('m1')" onmouseout="mclosetime()">Index</a>
+                <div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                <a href="braxton_5_microbes.html">Microbes</a>
+                <a href="braxton_5_gears.html">Gears</a>
+                <a href="braxton_5_clockwork.html">Clock</a>
+                <a href="braxton_5_pendulum.html">Pendulum</a>
+            </div>
+            </li>
+            <li><a href="braxton_5_microbes.html" onmouseover="mopen('m2')" onmouseout="mclosetime()">Microbes</a>
+                <div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                    <a href="brxaton_5_mcode.html">Code</a>
+                </div>
+            </li>
+            <li><a href="braxton_5_gears.html" onmouseover="mopen('m3')" onmouseout="mclosetime()">Gears</a>
+                <div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                    <a href="brxaton_5_gcode.html">Code</a>
+                </div>
+            </li>
+            <li><a href="braxton_5_clockwork.html" onmouseover="mopen('m4')" onmouseout="mclosetime()">Clock</a>
+                <div id="m4" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                    <a href="brxaton_5_ccode.html">Code</a>
+                </div>
+            </li>
+            <li><a href="braxton_5_pendulum.html" onmouseover="mopen('m5')" onmouseout="mclosetime()">Pendulum</a>
+                <div id="m5" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                    <a href="brxaton_5_pcode.html">Code</a>
+                </div>
+            </li>
+            </ul>
+        </nav>
+        </header>
+        <div class="display">
+  <canvas id="myCanvas" width="600" height="700">
   </canvas>
     <script src="braxton_5_microbes.js"></script>
     <script src="animation.js"></script>
+            <h1>Microbes</h1>
+        </div>
 </body>
 </html>
