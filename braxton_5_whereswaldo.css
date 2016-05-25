@@ -1,0 +1,63 @@
+#background {
+    width: 1350px;
+    height: 940px;
+    background-image: url(bake.png);
+    border-radius: 10px;
+    position: absolute;
+    top: 10px;
+}
+
+.hints {
+    width: 300px;
+    height: 940px;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    background-color: darkcyan;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+html {
+    background-color: cyan;
+}
+
+#waldo {
+    position: absolute;
+    left: 100px;
+    top: 193px;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+#heart {
+    position: absolute;
+    left: 1050px;
+    top: 150px;
+}
+
+#poop {
+    position: absolute;
+    left: 1200px;
+    top: 800px;
+}
+
+.line {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: line-through;
+}
+
+#baby {
+    position: absolute;
+    left: 855px;
+}
